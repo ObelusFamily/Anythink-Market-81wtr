@@ -12,4 +12,6 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 1. Clone the repo into your local machine.
 2. Install **Docker** 
 3. Run command ```docker-compose up``` from your project root directory.
+4. If Docker is working correctly, the backend should be running and able to connect to your local database.
+   Check that by hoping over your browser to http://localhost:3000/api/ping.
 
